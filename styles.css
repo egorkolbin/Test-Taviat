@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&family=Inter&display=swap");
+
+* {
+  margin: 0px;
+  /* font-family: 'Inter'; */
+  /* font-family: 'Azeret Mono'; */
+}
+body {
+  background-color: #e9e9e3;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 1440px;
+  height: 100vh;
+}
+.menu_block {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.menu_block_title {
+  font-family: "Azeret Mono";
+  font-size: 18px;
+  color: #6f6f64;
+  margin-bottom: 20px;
+}
+.menu_block_description {
+  font-family: "Inter";
+  font-size: 32px;
+  color: #6f6f64;
+  margin-bottom: 75px;
+}
+.menu_block_buttons {
+  display: flex;
+  flex-direction: column;
+}
+.menu_block_button {
+  margin-bottom: 12px;
+  border: 2px solid #6f6f64;
+  padding: 17px 0px;
+  background-color: transparent;
+  font-family: "Inter";
+  color: #6f6f64;
+  font-size: 15px;
+  cursor: pointer;
+}
+.menu_block_button:hover {
+  background-color: #6f6f64;
+  color: #ffffff;
+}
+
+.active_button {
+  background-color: #6f6f64;
+  color: #ffffff;
+}
+.menu_list {
+  width: 516px;
+  background-color: #ffffff;
+  display: flex;
+  padding: 50px 120px;
+  overflow: hidden;
+}
+.menu_slider_block {
+  display: flex;
+  transition: 1s;
+}
+.menu_list_slide {
+  width: 516px;
+  margin-right: 120px;
+}
+.menu_list_title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-family: "Inter";
+  text-transform: uppercase;
+  transition: 1s;
+}
+.slider_move {
+  margin-left: -1200px;
+}
+.menu_list_entres_title {
+  font-size: 32px;
+  font-family: "Inter";
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  transition: 1s;
+}
+.menu_list_entres_block {
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.menu_list_entres_block_title {
+  font-weight: bold;
+  margin-bottom: 3px;
+  transition: 1s;
+}
+.menu_list_entres_block_description {
+  transition: 1s;
+}
+.menu_list_entres_block_price {
+  transition: 1s;
+}
